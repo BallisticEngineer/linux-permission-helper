@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>EngineerForge.LinuxPermissionHelper</RootNamespace>
+    <AssemblyName>EngineerForge.LinuxPermissionHelper.Core</AssemblyName>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Company>Engineer-Forge</Company>
+    <Copyright>Copyright (c) 2026 Sean Moreira</Copyright>
+  </PropertyGroup>
+</Project>

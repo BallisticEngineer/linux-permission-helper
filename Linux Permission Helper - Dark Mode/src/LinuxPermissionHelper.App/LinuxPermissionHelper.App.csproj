@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>EngineerForge.LinuxPermissionHelper.App</RootNamespace>
+    <AssemblyName>Linux-Permission-Helper</AssemblyName>
+
+    <!-- Release identity. ProductVersion also carries the source revision of the
+         build that produced the artefact, so a published executable can be traced
+         back to an exact source commit. -->
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Product>Linux Permission Helper</Product>
+    <AssemblyTitle>Linux Permission Helper</AssemblyTitle>
+    <Company>Engineer-Forge</Company>
+    <Authors>Sean Moreira</Authors>
+    <Copyright>Copyright (c) 2026 Sean Moreira</Copyright>
+    <Description>Native Windows desktop utility for understanding, converting and generating Linux chmod permissions.</Description>
+
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>..\..\Assets\Icons\Linux-Permission-Helper.ico</ApplicationIcon>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LinuxPermissionHelper.Core\LinuxPermissionHelper.Core.csproj" />
+    <ProjectReference Include="..\..\..\Dark-Mode-UI-Template\src\DarkModeUI\DarkModeUI.csproj" />
+    <EmbeddedResource Include="..\..\Assets\Icons\ICON.ico" LogicalName="LinuxPermissionHelper.ApprovedIcon" />
+  </ItemGroup>
+</Project>

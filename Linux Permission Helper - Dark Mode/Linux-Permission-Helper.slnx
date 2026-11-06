@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/LinuxPermissionHelper.Core/LinuxPermissionHelper.Core.csproj" />
+  <Project Path="src/LinuxPermissionHelper.App/LinuxPermissionHelper.App.csproj" />
+  <Project Path="tests/LinuxPermissionHelper.Tests/LinuxPermissionHelper.Tests.csproj" />
+</Solution>
