@@ -4,6 +4,16 @@ A free, offline Windows utility for understanding Linux file permissions and gen
 
 **Version:** 1.0.0 | **License:** MIT | **Platform:** Windows x64
 
+## Screenshots
+
+![Linux Permission Helper showing standard 755 permissions, the octal and symbolic conversion, permission summary, and generated chmod command](screenshots/01-Linux-Permission-Helper-755.png)
+
+Additional examples:
+
+| 644: Normal file | 700: Private directory |
+| --- | --- |
+| ![644 file permissions](screenshots/02-Linux-Permission-Helper-644.png) | ![700 private directory permissions](screenshots/03-Linux-Permission-Helper-700.png) |
+
 ## Download
 
 **[Download Linux Permission Helper v1.0.0](https://github.com/BallisticEngineer/linux-permission-helper/releases/latest)**
